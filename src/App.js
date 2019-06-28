@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './app.css'
+import './App.css'
 import ShippingLabelMaker from './features/shipping-label-maker/shippingLabelMaker'
 import FleetTrainingManual from './features/fleet-training-manual/fleetTrainingManual'
 
