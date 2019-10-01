@@ -14,6 +14,15 @@ class App extends Component {
     return (
       <div className="App">
       <Router>
+        <Link 
+          to="/training"
+        ><a>Training</a>
+        </Link>
+        <br/><br/>
+        <Link 
+          to="/shipping"
+        ><a>Shipping</a>
+        </Link>
         <Route
           path="/training"
           render={() => {                
