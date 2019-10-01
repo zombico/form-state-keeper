@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
-import ShippingLabelMaker from './features/shipping-label-maker/shippingLabelMaker'
+// import ShippingLabelMaker from './features/shipping-label-maker/shippingLabelMaker'
 import FleetTrainingManual from './features/fleet-training-manual/fleetTrainingManual'
 
 class App extends Component {
@@ -8,8 +8,8 @@ class App extends Component {
     return (
       <div className="App">
         
-        <ShippingLabelMaker />
-        {/* <FleetTrainingManual /> */}
+        {/* <ShippingLabelMaker /> */}
+        <FleetTrainingManual />
       </div>
     );
   }
